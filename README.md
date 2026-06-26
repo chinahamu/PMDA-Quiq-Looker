@@ -140,3 +140,10 @@ docs/
 **English:** This extension is a document lookup aid. It is not a medical device, diagnosis system, prescription decision system, or substitute for professional clinical judgment. Users must verify package insert content and clinical decisions using official PMDA information and their institution's approved workflow.
 
 **日本語:** この拡張機能は文書参照を補助するツールです。医療機器、診断システム、処方判断システム、または専門的な臨床判断の代替ではありません。添付文書の内容や臨床判断は、PMDA公式情報および所属機関で承認された業務手順に基づいて確認してください。
+
+## Contact / 連絡先
+
+**English:** For inquiries, contact: ktwriter43@gmail.com
+
+**日本語:** お問い合わせは以下までご連絡ください：ktwriter43@gmail.com
+
