@@ -1,8 +1,8 @@
 # PMDA Quick Looker
 
-**English:** PMDA Quick Looker is a released Chrome extension for quickly looking up PMDA package insert PDF links and related drug information from selected drug names in web-based clinical workflows.
+**English:** PMDA Quick Looker is a released Chrome extension for quickly looking up PMDA package insert PDF links and related drug information from selected drug names in web-based clinical workflows. It is available on the [Chrome Web Store](https://chromewebstore.google.com/detail/pmda-quick-looker/oagmkbdjbkdpfihbinddckjhfiddbfmp).
 
-**日本語:** PMDA Quick Looker は、電子カルテや医療系Web画面上で選択した薬剤名から、添付文書PDFリンクや関連する薬剤情報を素早く検索・参照するためのリリース済み Chrome 拡張機能です。
+**日本語:** PMDA Quick Looker は、電子カルテや医療系Web画面上で選択した薬剤名から、添付文書PDFリンクや関連する薬剤情報を素早く検索・参照するためのリリース済み Chrome 拡張機能です。[Chrome ウェブストア](https://chromewebstore.google.com/detail/pmda-quick-looker/oagmkbdjbkdpfihbinddckjhfiddbfmp)からインストールしてご利用いただけます。
 
 ## Release status / リリース状況
 
@@ -20,16 +20,16 @@
 
 ## Features / 機能
 
-| English | 日本語 |
-| --- | --- |
-| Context menu lookup from selected drug-name text. | 選択した薬剤名テキストから右クリックメニューで検索できます。 |
-| Manual search from the extension popup. | 拡張機能ポップアップから薬剤名を直接検索できます。 |
-| Side Panel result display for longer review sessions. | 長めの確認作業向けに Chrome Side Panel で検索結果を表示できます。 |
-| Candidate list with package insert PDF links. | 候補一覧と添付文書PDFリンクを表示します。 |
+| English                                                                                                                                                                        | 日本語                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Context menu lookup from selected drug-name text.                                                                                                                              | 選択した薬剤名テキストから右クリックメニューで検索できます。                                                                |
+| Manual search from the extension popup.                                                                                                                                        | 拡張機能ポップアップから薬剤名を直接検索できます。                                                                          |
+| Side Panel result display for longer review sessions.                                                                                                                          | 長めの確認作業向けに Chrome Side Panel で検索結果を表示できます。                                                           |
+| Candidate list with package insert PDF links.                                                                                                                                  | 候補一覧と添付文書PDFリンクを表示します。                                                                                   |
 | Structured drug information panels when the API response includes fields such as indications, dosage, warnings, contraindications, precautions, interactions, or side effects. | APIレスポンスに効能・効果、用法・用量、警告、禁忌、使用上の注意、相互作用、副作用などが含まれる場合、構造化して表示します。 |
-| Side Panel bookmarks, display-mode preference, and font-size preference. | Side Panel のブックマーク、表示モード、文字サイズ設定に対応します。 |
-| Search-result caching and local candidate index in the user's browser. | 検索結果キャッシュと候補表示用ローカル索引をユーザーのブラウザ内に保存します。 |
-| Local logging and privacy-first storage design. | ローカルログとプライバシー重視の保存設計を採用しています。 |
+| Side Panel bookmarks, display-mode preference, and font-size preference.                                                                                                       | Side Panel のブックマーク、表示モード、文字サイズ設定に対応します。                                                         |
+| Search-result caching and local candidate index in the user's browser.                                                                                                         | 検索結果キャッシュと候補表示用ローカル索引をユーザーのブラウザ内に保存します。                                              |
+| Local logging and privacy-first storage design.                                                                                                                                | ローカルログとプライバシー重視の保存設計を採用しています。                                                                  |
 
 ## Privacy note / プライバシーに関する注意
 
@@ -77,14 +77,14 @@ npm run build
 
 ## Load in Chrome / Chrome での読み込み
 
-| Step | English | 日本語 |
-| --- | --- | --- |
-| 1 | Open `chrome://extensions/`. | `chrome://extensions/` を開きます。 |
-| 2 | Enable **Developer mode**. | **デベロッパーモード** を有効にします。 |
-| 3 | Click **Load unpacked**. | **パッケージ化されていない拡張機能を読み込む** をクリックします。 |
-| 4 | Select the generated `dist/` directory. | 生成された `dist/` ディレクトリを選択します。 |
-| 5 | Select drug-name text on a web page and run **PMDAで添付文書を調べる** from the context menu. | Webページ上で薬剤名テキストを選択し、右クリックメニューから **PMDAで添付文書を調べる** を実行します。 |
-| 6 | Open the popup or Side Panel to see search results and package insert PDF links. | ポップアップまたは Side Panel で検索結果と添付文書PDFリンクを確認します。 |
+| Step | English                                                                                       | 日本語                                                                                                |
+| ---- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 1    | Open `chrome://extensions/`.                                                                  | `chrome://extensions/` を開きます。                                                                   |
+| 2    | Enable **Developer mode**.                                                                    | **デベロッパーモード** を有効にします。                                                               |
+| 3    | Click **Load unpacked**.                                                                      | **パッケージ化されていない拡張機能を読み込む** をクリックします。                                     |
+| 4    | Select the generated `dist/` directory.                                                       | 生成された `dist/` ディレクトリを選択します。                                                         |
+| 5    | Select drug-name text on a web page and run **PMDAで添付文書を調べる** from the context menu. | Webページ上で薬剤名テキストを選択し、右クリックメニューから **PMDAで添付文書を調べる** を実行します。 |
+| 6    | Open the popup or Side Panel to see search results and package insert PDF links.              | ポップアップまたは Side Panel で検索結果と添付文書PDFリンクを確認します。                             |
 
 ## Testing / テスト
 
@@ -95,12 +95,12 @@ npm run test:e2e
 npm run build
 ```
 
-| English | 日本語 |
-| --- | --- |
-| Unit tests cover PMDA API/cache behavior with mocks. | 単体テストでは、モックを使ってPMDA API/キャッシュ挙動を確認します。 |
-| E2E tests cover the built extension UI with mocked Chrome extension APIs and mocked PMDA responses. | E2Eテストでは、モックした Chrome 拡張APIとPMDAレスポンスでビルド済み拡張UIを確認します。 |
+| English                                                                                                                 | 日本語                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Unit tests cover PMDA API/cache behavior with mocks.                                                                    | 単体テストでは、モックを使ってPMDA API/キャッシュ挙動を確認します。                                          |
+| E2E tests cover the built extension UI with mocked Chrome extension APIs and mocked PMDA responses.                     | E2Eテストでは、モックした Chrome 拡張APIとPMDAレスポンスでビルド済み拡張UIを確認します。                     |
 | Manual integration checks are documented in [`docs/integration-test-checklist.md`](docs/integration-test-checklist.md). | 手動結合確認は [`docs/integration-test-checklist.md`](docs/integration-test-checklist.md) に記載しています。 |
-| Release validation is documented in [`docs/release-checklist.md`](docs/release-checklist.md). | リリース検証は [`docs/release-checklist.md`](docs/release-checklist.md) に記載しています。 |
+| Release validation is documented in [`docs/release-checklist.md`](docs/release-checklist.md).                           | リリース検証は [`docs/release-checklist.md`](docs/release-checklist.md) に記載しています。                   |
 
 ## Support / サポート
 
@@ -146,4 +146,3 @@ docs/
 **English:** For inquiries, contact: ktwriter43@gmail.com
 
 **日本語:** お問い合わせは以下までご連絡ください：ktwriter43@gmail.com
-
