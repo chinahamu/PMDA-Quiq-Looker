@@ -1,0 +1,91 @@
+body {
+  min-width: 320px;
+}
+
+.status-card {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.status-badges {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+  max-width: 48%;
+}
+
+.status-badge {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 0.68em;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 5px 8px;
+  white-space: nowrap;
+}
+
+.status-badge.is-online,
+.status-badge.is-fresh {
+  background: var(--success-bg);
+  border-color: var(--success-border);
+  color: var(--success-text);
+}
+
+.status-badge.is-offline,
+.status-badge.is-stale {
+  background: var(--error-bg);
+  border-color: var(--error-border);
+  color: var(--error-text);
+}
+
+.status-badge.is-warning {
+  background: #fffbeb;
+  border-color: #fde68a;
+  color: #92400e;
+}
+
+@media (max-width: 360px) {
+  .side-panel {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .app-header,
+  .viewer-header,
+  .status-card {
+    display: grid;
+  }
+
+  .app-header {
+    border-radius: 18px;
+    padding: 14px;
+  }
+
+  .settings-group,
+  .status-badges {
+    max-width: none;
+    width: 100%;
+  }
+
+  .settings-group {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .search-row {
+    display: grid;
+  }
+
+  .viewer-card,
+  .search-card,
+  .status-card {
+    border-radius: 14px;
+    padding: 12px;
+  }
+}

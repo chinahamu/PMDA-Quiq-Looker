@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Popup search placeholder</title>
+  <desc id="desc">Placeholder screenshot showing PMDA Quick Looker popup search results.</desc>
+  <rect width="1280" height="720" fill="#f8fafc"/>
+  <rect x="408" y="72" width="464" height="576" rx="28" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="448" y="138" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">PMDA Quick Looker</text>
+  <rect x="448" y="176" width="384" height="50" rx="12" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="470" y="209" font-family="Arial, sans-serif" font-size="22" fill="#475569">アムロジピン</text>
+  <rect x="448" y="258" width="384" height="82" rx="16" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="472" y="294" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">アムロジピン錠</text>
+  <text x="472" y="324" font-family="Arial, sans-serif" font-size="18" fill="#475569">PMDA candidate result</text>
+  <rect x="448" y="360" width="384" height="82" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="472" y="396" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">アムロジピンOD錠</text>
+  <text x="472" y="426" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Select to preview package insert</text>
+  <rect x="448" y="482" width="384" height="96" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="472" y="526" font-family="Arial, sans-serif" font-size="20" fill="#64748b">PDF/XML preview area</text>
+  <text x="180" y="640" font-family="Arial, sans-serif" font-size="22" fill="#64748b">Placeholder only. Replace with a real release screenshot before Chrome Web Store submission.</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">PMDA Quick Looker icon draft</title>
+  <desc id="desc">A blue document and magnifying glass icon for PMDA Quick Looker.</desc>
+  <rect width="512" height="512" rx="112" fill="#0369a1"/>
+  <path d="M154 94h152l76 76v236c0 22-18 40-40 40H154c-22 0-40-18-40-40V134c0-22 18-40 40-40Z" fill="#f8fafc"/>
+  <path d="M306 94v74c0 12 10 22 22 22h54" fill="#dbeafe"/>
+  <path d="M164 202h164M164 248h184M164 294h122" stroke="#0f172a" stroke-width="22" stroke-linecap="round" opacity="0.72"/>
+  <circle cx="292" cy="320" r="74" fill="none" stroke="#0ea5e9" stroke-width="34"/>
+  <path d="m344 372 58 58" stroke="#0ea5e9" stroke-width="38" stroke-linecap="round"/>
+  <circle cx="292" cy="320" r="32" fill="#e0f2fe" opacity="0.78"/>
+</svg>

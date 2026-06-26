@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Test output
+playwright-report/
+test-results/
+
+# TypeScript
+*.tsbuildinfo
+node_modules/.tmp/
+
+# Bulk download working files
+.cache/
+*.summary.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
