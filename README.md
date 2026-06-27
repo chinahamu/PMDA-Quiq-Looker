@@ -1,5 +1,7 @@
 # PMDA Quick Looker
 
+![PMDA Quick Looker Demo](public/PMDAtool.gif)
+
 **English:** PMDA Quick Looker is a released Chrome extension for quickly looking up PMDA package insert PDF links and related drug information from selected drug names in web-based clinical workflows. It is available on the [Chrome Web Store](https://chromewebstore.google.com/detail/pmda-quick-looker/oagmkbdjbkdpfihbinddckjhfiddbfmp).
 
 **日本語:** PMDA Quick Looker は、電子カルテや医療系Web画面上で選択した薬剤名から、添付文書PDFリンクや関連する薬剤情報を素早く検索・参照するためのリリース済み Chrome 拡張機能です。[Chrome ウェブストア](https://chromewebstore.google.com/detail/pmda-quick-looker/oagmkbdjbkdpfihbinddckjhfiddbfmp)からインストールしてご利用いただけます。
